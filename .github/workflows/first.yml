@@ -9,5 +9,5 @@ jobs: # the jobs that run in this workflow
         run:  echo "Hello World"
       - name: run multiple commands
         run:
-          echo "Hello World" # the first command that prints hello world
-          echo "This is Joni" #the second command that prints this is joni
+         echo "Hello World" # the first command that prints hello world
+         echo "This is Joni" #the second command that prints this is joni
