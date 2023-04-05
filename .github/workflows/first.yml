@@ -1,9 +1,9 @@
-name:
+name: my first workflow
 on: [push]
 
-jobs:
-  run_command:
-    runs-on: ubuntu-latest
+jobs: # the jobs that run in this workflow
+  run_command: # the name of the job
+    runs-on: ubuntu-latest # type of machine to run on
     steps:
       - name: run echo command
         run: echo "Hello World"
