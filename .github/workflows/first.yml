@@ -6,7 +6,7 @@ jobs: # the jobs that run in this workflow
     runs-on: ubuntu-latest # type of machine to run on
     steps:
       - name: run echo command
-        run: echo "Hello World"
+        run:  echo "Hello World"
       - name: run multiple commands
         run:
           echo "Hello World" # the first command that prints hello world
