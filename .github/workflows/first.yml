@@ -3,11 +3,12 @@ on: [push]
 
 jobs: # the jobs that run in this workflow
   run_command: # the name of the job
-    runs-on: ubuntu-latest # type of machine to run on
-    steps:
-      - name: run echo command
-        run:  echo "Hello World"
-      - name: run multiple commands
-        run:
+   runs-on: ubuntu-latest # type of machine to run on
+   steps:
+    - name: run echo command
+      run:  echo "Hello World"
+    - name: run multiple commands
+      run: |
          echo "Hello World" # the first command that prints hello world
          echo "This is Joni" #the second command that prints this is joni
+         
