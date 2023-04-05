@@ -1,1 +1,13 @@
-hi
+name:
+on: [push]
+
+jobs:
+  run_command:
+    runs-on: ubuntu-latest
+    steps:
+      - name: run echo command
+        run: echo "Hello World"
+      - name: run multiple commands
+        run:
+          echo "Hello World" # the first command that prints hello world
+          echo "This is Joni" #the second command that prints this is joni
